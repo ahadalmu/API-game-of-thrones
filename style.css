@@ -1,0 +1,75 @@
+body{
+    background-image: url("./img/got.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100%; */
+    /* background-size: 100%; */
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0%;
+    position: relative;
+
+
+}
+header{
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    align-self: center;
+    
+
+}
+section{
+    color: black;
+    /* font-size: 38px; */
+}
+p{
+   /* color: black;
+   font-size: 38px; */
+   /* text-align: center; */
+
+}
+footer{
+    position: absolute;
+    top: 90%;
+   margin: 30px;
+    align-self: center;
+    text-align: center;
+    opacity: 0.6;
+    background-color:gray;
+    padding: 30px;
+    position: relative;
+    left: center;
+    top: center;
+    border-radius: 20px;
+    /* justify-content:end; */
+}
+img{
+    height: 100px;
+    width: 200px;
+    
+}
+/* h1{
+    text-align: center;
+    color: azure;
+} */
+#logo{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+}
+main{
+    align-self: center;
+    text-align: center;
+    opacity: 0.6;
+    background-color:gray;
+    /* height: 40%;
+    width: 60%; */
+    padding: 30px;
+    position: relative;
+    left: center;
+    top: center;
+    border-radius: 20px;
+}
