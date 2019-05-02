@@ -2,9 +2,7 @@ body{
     background-image: url("./img/got.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 100%; */
-    /* background-size: 100%; */
-    /* background-color: gray; */
+    background-position: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -15,26 +13,19 @@ body{
 }
 header{
     height: 300px;
-    width: 100%;
-    background-repeat: no-repeat;
-    align-self: center;
-    
+}
 
-}
-section{
-    color: black;
-    /* font-size: 38px; */
-}
 p{
-   /* color: black;
-   font-size: 38px; */
-   /* text-align: center; */
+   color: MIDNIGHTBLUE;
+   font-size: 38px;
+   text-align: center;
+   font-family: 'Just Another Hand', cursive;
 
 }
 footer{
     position: absolute;
     top: 90%;
-   margin: 30px;
+    margin: 30px;
     align-self: center;
     text-align: center;
     opacity: 0.6;
@@ -44,17 +35,17 @@ footer{
     left: center;
     top: center;
     border-radius: 20px;
-    /* justify-content:end; */
 }
 img{
     height: 100px;
     width: 200px;
     
 }
-/* h1{
+h2{
     text-align: center;
-    color: azure;
-} */
+    color: pink;
+
+}
 #logo{
     position: absolute;
     left: 35%;
@@ -65,11 +56,47 @@ main{
     text-align: center;
     opacity: 0.6;
     background-color:gray;
-    /* height: 40%;
-    width: 60%; */
     padding: 30px;
     position: relative;
     left: center;
     top: center;
     border-radius: 20px;
 }
+  #character , h2{
+    font-family: 'BioRhyme Expanded', serif;
+    font-size: 20px;
+    color:  MIDNIGHTBLUE;
+    text-shadow: 5px black;
+
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+label , #quote{
+    font-family: 'Just Another Hand', cursive;
+  color:  MIDNIGHTBLUE;
+  font-size: 40px;
+  font-weight: bolder;
+
+
+
+}
+
+li{
+    list-style: none;
+}
+ul {
+    display: none;
+    visibility: inherit;
+  }
+
+  #fav{
+      color: white;
+      height: 200px;
+      width: 100px;     
+  }
+  nav{
+      height: 200px;
+      width: 100px;
+  }

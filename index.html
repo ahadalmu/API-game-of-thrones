@@ -8,41 +8,57 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.4.0.min.js" crossorigin="anonymous"></script>
     <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded" rel="stylesheet">
     <title>Game Of Thrones</title>
 </head>
 
 <body>
     <header>
-<img id="logo" src="./img/logo1.png" alt="logo">
-</header>
-<main>
-   <section>
-        <div class="form">
-            <form>
-                <label for="GOT">Characters:</label>
-                <input type="text" id="name">
-                <button type="submit">search</button>
-            </form>
+        <div>
+
+            <img id="logo" src="./img/logo1.png" alt="logo">
         </div>
-        <div class="info">
-            <h2 id="info"> </h2>
-            <p id="name"> </p>
-            <p id="culture"> </p>
-            <p id="gender"> </p>
-            <p id="born"> </p>
-            <p id="playedBy"> </p>
-            <p id="titles"> </p>
-            <p id="titles"> </p>
+
+        <nav >
+
+            <ul id="fav">
+                <h2>favorite</h2>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+
+            <div class="form">
+                <form>
+                    <label for="GOT">Characters:</label>
+                    <input type="text" id="name">
+                    <button type="submit">search</button>
+                </form>
+            </div>
+            <div class="info">
+
+                <p id="name1"> </p>
+                <p id="culture"> </p>
+                <p id="gender"> </p>
+                <p id="born"> </p>
+                <p id="playedBy"> </p>
+                <p id="titles"> </p>
+                <p id="titles"> </p>
 
 
-        </div>
-        
-    </section>
-</main>       
-       <footer>
-               <p> <span id="quote"></span></p>
-               <p><span id="character"></span></p>
-        </footer>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <h2> Quote </h2>
+        <p><span id="quote"></span></p>
+        <p><span id="character"></span></p>
+    </footer>
 </body>
 
 </html>
