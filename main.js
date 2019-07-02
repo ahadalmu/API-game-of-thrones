@@ -107,7 +107,7 @@ $(document).ready(function () {
     // $("#fav1").click(function(){
     //   $this.parent().next("#fav").toggle(slow);
     //   return false;
-    // });
+    // })
 
     // $('#logo').on('click', togglelogo);
 
