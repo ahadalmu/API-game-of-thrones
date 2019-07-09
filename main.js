@@ -93,7 +93,7 @@ $(document).ready(function () {
 
             $('#quote').text(resulte.quote);
             $('#quote').css('color','HONEYDEW');
-            $('#character').text("By: "+resulte.character);
+            $('#character').text(" By: "+resulte.character);
            
 
         },
